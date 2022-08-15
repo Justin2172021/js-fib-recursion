@@ -17,6 +17,7 @@ const fibs = (number) => {
 
 fibs(8);
 
+// Assignment 1 - Fibs - (2)Use Recursion
 const fibsRec = (length) => {
     // Cases to exclude
     if (length < 1 || isNaN(length)) return "Invalid entry";
